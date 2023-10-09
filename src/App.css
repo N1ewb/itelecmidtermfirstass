@@ -1,0 +1,229 @@
+*   {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(1, 1, 1);
+  position: fixed;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: solid;
+  border-bottom-color: white;
+  background-color: gray;
+  
+}
+.logo {
+    overflow: hidden;
+    position: fixed;
+    padding:3px;
+    display: block;
+    color:black;
+    margin-left: 20px;
+    
+    background-color: black;
+    border-radius: 5px;
+}
+span {
+  color: white;
+  overflow: hidden;
+  font-size: 25px;
+}
+span1{
+  background-color: orange;
+  color: black;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 25px;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: orange;
+}
+
+.first {
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+  background-color: #333;
+  display: flex;
+}
+.img-container {
+  display: block;
+  margin: 0;
+  margin-top: 70px;
+  margin-left: 150px;
+  width: 170px;
+  height: 200px;
+  border-color: orange; border-style: solid;
+}
+.profile {
+  width: 165px;
+  height:195px;
+}
+.img-container h1,p {
+  color: white;
+  display: center;
+  margin-left: 5px;
+}
+
+.img-container button {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+
+.button:hover {
+ padding: 12px 22px;
+ background-color: white;
+ color: orange;
+}
+
+.bio {
+  height: 200px;
+  width: 500px;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.bio p, h1 {
+  
+  color: white;
+}
+.name {
+  margin-left: 20px;
+}
+.motto h1 {
+  margin-top: 60px;
+  animation: ani 15s infinite;
+  position: relative;
+  animation-fill-mode: forwards;
+  font-size: 25px;
+}
+@keyframes ani {
+  0%   {color: white; top: 0px;}
+  25%  {color: orange;}
+  50%  {color: white;}
+  100% {color: orange;top:250px;}
+}
+
+.second {
+  height:600px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #333;
+ 
+}
+.serv {
+  text-align: center;
+  margin-top: 20px;
+  color: orange;
+  font-size: 25px;
+}
+.dic {
+  margin-left:35px;
+  margin-top: 70px;
+  height: 400px;
+  width: 370px;
+  background-color: orange;
+  text-align: center;
+  border: solid white;
+}
+.second-container {
+  height:600px;
+  width: 100%;
+  display: flex;
+  
+}
+.dic:hover {
+  background-color: black;
+  border: solid orange;
+  color: white;
+}
+.second h1 {
+  display: inline-block;
+}
+
+.third {
+  height:600px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #333;
+}
+
+.third-container {
+  height:500px;
+  width: 100%;
+  display: flex;
+}
+
+.cont {
+  text-align: center;
+  color: orange;
+  font-size: 25px;
+}
+
+.dic2 {
+  margin-left:440px;
+  margin-top: 70px;
+  height: 400px;
+  width: 370px;
+  background-color: black;
+  text-align: center;
+  border: solid white;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid orange;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: orange;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
